@@ -13,7 +13,7 @@ Usage
 --------------------------------------------
 Open the Linux terminal and type the following command : 
 
-./whatsapp
+$ ./whatsapp
 
 Then connect to WhatsApp by scanning QR
 
@@ -21,17 +21,17 @@ Then connect to WhatsApp by scanning QR
 
 Ubuntu 20.4
 
-sudo apt-get install libwebkit2gtk-4.0-dev
+$ sudo apt-get install libwebkit2gtk-4.0-dev
 
 Fedora 31
 
-sudo dnf install webkit2gtk3-devel.x86_64
+$ sudo dnf install webkit2gtk3-devel.x86_64
 
 Build App
 -------------------------------------------------
 terminal:
 
-c++ SOURCE_NAME.cc `pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0` -o APPNAME
+$ c++ SOURCE_NAME.cc `pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0` -o APPNAME
 
 Source App
 ---------------------------------------------------
