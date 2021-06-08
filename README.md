@@ -55,7 +55,7 @@ int main() {
 	
   w.set_size( _WIDTH_SIZE_ , _HEIGHT_SIZE_ , WEBVIEW_HINT_NONE);
 	
-  w.navigate(" _URL_WEB_ ");
+  w.navigate(" _URLWEB_ ");
 	
   w.run();
 	
@@ -71,4 +71,4 @@ _WIDTH_SIZE_ : 200 without px
 
 _HEIGHT_SIZE_ : 100 without px
 
-_URL_WEB_ : http(s)://SAMPLE.com
+_URLWEB_ : http(s)://SAMPLE.com
