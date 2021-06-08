@@ -58,7 +58,7 @@ int main() {
 ```
 
 
-Change Sourcecode:(sample)
+Change Source:(sample)
 ----
 ```
 TITLE_NAME : TEST_APP
