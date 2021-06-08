@@ -63,12 +63,12 @@ int main() {
 	
 }
 
-Change :
+Change :(sample)
 
-_TITLE_NAME_
+_TITLE_NAME_ : TEST_APP
 
-_WIDTH_SIZE_
+_WIDTH_SIZE_ : 200 without px
 
-_HEIGHT_SIZE_
+_HEIGHT_SIZE_ : 100 without px
 
-_URL_WEB_
+_URL_WEB_ : http(s)://SAMPLE.com
